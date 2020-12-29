@@ -1,0 +1,36 @@
+#pragma once
+
+#include <QString>
+
+/*! Вовзарщает Major версию*/
+#define CryptoShloma_MAJOR_VERSION @CryptoShloma_VERSION_MAJOR@
+
+/*! Возвращает Minor версию */
+#define CryptoShloma_MINOR_VERSION  @CryptoShloma_VERSION_MINOR@
+
+#define CryptoShloma_PATCH_VERSION  @CryptoShloma_VERSION_PATCH@
+
+#define CryptoShloma_REVISION @CryptoShloma_REVISION@
+
+#define CryptoShloma_BRANCH "@CryptoShloma_BRANCH@"
+
+#define CryptoShloma_FULL_VERSION "@CryptoShloma_VERSION@"
+
+#define CryptoShloma_DB_VERSION "@CryptoShloma_DB@"
+
+/*! \brief  Возвращает текущую версию в виде строки
+ */
+inline QString cryptoShlomaVersionStr() noexcept
+{
+    return QString( CryptoShloma_FULL_VERSION );
+}
+
+/*! \brief  Возвращает текущую версию бд виде строки
+ */
+inline QString cryptoShlomaDatabaseVersionStr() noexcept
+{
+    return QString( CryptoShloma_DB_VERSION );
+}
+
+
+

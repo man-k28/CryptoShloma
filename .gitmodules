@@ -1,0 +1,3 @@
+[submodule "share/libs/CuteLogger"]
+	path = share/libs/CuteLogger
+	url = https://github.com/man-k28/CuteLogger.git

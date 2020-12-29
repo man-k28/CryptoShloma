@@ -50,3 +50,7 @@ compile_commands.json
 
 # QtCreator local machine specific files for imported projects
 *creator.user*
+
+#Project files
+include/version.hpp
+installer/packages/cryptoshloma/data/CryptoShloma.7z

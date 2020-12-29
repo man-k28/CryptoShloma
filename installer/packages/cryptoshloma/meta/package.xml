@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package>
+    <DisplayName>CryptoShloma</DisplayName>
+    <Description>CryptoShloma</Description>
+    <Version>0.3</Version>
+    <ReleaseDate>2020-12-27</ReleaseDate>
+    <Default>true</Default>
+    <Script>installscript.qs</Script>
+</Package>

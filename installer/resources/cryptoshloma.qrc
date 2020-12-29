@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>../../resources/ui_icons/rabbi.ico</file>
+        <file>../../resources/ui_icons/rabbi.svg</file>
+    </qresource>
+</RCC>

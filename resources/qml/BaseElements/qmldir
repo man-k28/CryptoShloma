@@ -1,0 +1,15 @@
+module BaseElements
+BusyIndicatorStyled 1.0 BusyIndicatorStyled.qml
+DoubleSpinBox2Prec 1.0 DoubleSpinBox2Prec.qml
+DoubleSpinBox8Prec 1.0 DoubleSpinBox8Prec.qml
+EmptyLabel 1.0 EmptyLabel.qml
+HeaderLabel 1.0 HeaderLabel.qml
+ListViewDelegateStyled 1.0 ListViewDelegateStyled.qml
+ListViewHeaderStyled 1.0 ListViewHeaderStyled.qml
+ListViewStyled 1.0 ListViewStyled.qml
+PasswordField 1.0 PasswordField.qml
+Separator 1.0 Separator.qml
+TabBarIcon 1.0 TabBarIcon.qml
+TableToolButton 1.0 TableToolButton.qml
+ToolBarIcon 1.0 ToolBarIcon.qml
+SearchField 1.0 SearchField.qml

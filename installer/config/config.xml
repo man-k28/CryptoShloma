@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Installer>
+    <Name>CryptoShloma</Name>
+    <Version>0.3</Version>
+    <Title>Installer of CryptoShloma</Title>
+    <Publisher>Man-k28</Publisher>
+    <ProductUrl>https://github.com/man-k28/CryptoShloma</ProductUrl>
+    <StartMenuDir>CryptoShloma</StartMenuDir>
+    <TargetDir>@ApplicationsDir@/CryptoShloma</TargetDir>
+    <Logo>rabbi.png</Logo>
+    <InstallerWindowIcon>rabbi.png</InstallerWindowIcon>
+    <InstallerApplicationIcon>rabbi.png</InstallerApplicationIcon>
+    <MaintenanceToolName>Updater</MaintenanceToolName>
+</Installer>
+
+
+<!--<?xml version="1.0"?>
+<Installer>
+    <Watermark>watermark.png</Watermark>
+    <RunProgram>@TargetDir@/YourAppToRun</RunProgram>
+    <RunProgramArguments>
+        <Argument>Argument 1</Argument>
+        <Argument>Argument 2</Argument>
+    </RunProgramArguments>
+    <RunProgramDescription>My nice application</RunProgramDescription>
+    <AllowNonAsciiCharacters>true</AllowNonAsciiCharacters>
+    <Background>background.png</Background>
+
+    <AdminTargetDir>@RootDir@/testinstall</AdminTargetDir>
+    <RemoteRepositories>
+        <Repository>
+            <Url>http://www.your-repo-location/packages/</Url>
+        </Repository>
+    </RemoteRepositories>
+</Installer>-->

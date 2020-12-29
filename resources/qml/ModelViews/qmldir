@@ -1,0 +1,11 @@
+module ModelViews
+BalanceView 1.0 BalanceView.qml
+OpenOrdersView 1.0 OpenOrdersView.qml
+OrdersListView 1.0 OrdersListView.qml
+OrdersView 1.0 OrdersView.qml
+SpreadMarketsView 1.0 SpreadMarketsView.qml
+TradePairPopup 1.0 TradePairPopup.qml
+TradingHistorySelectedPairView 1.0 TradingHistorySelectedPairView.qml
+TradingHistoryView 1.0 TradingHistoryView.qml
+TradingPairsView 1.0 TradingPairsView.qml
+VolumeMarketsView 1.0 VolumeMarketsView.qml
