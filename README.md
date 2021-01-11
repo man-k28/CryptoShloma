@@ -6,6 +6,9 @@ Crypto-trading algo (Hanukkah algo) based on set quantity of clever steps, when 
 
 When crypto growing, bot takes profit. When falls, dont loosing money. :)
 
+* [Article on Habr.com](https://habr.com/ru/sandbox/148944)
+* [Article on VC.ru](https://vc.ru/u/689296-man-k28/195465-algo-treyding-bot-cryptoshloma)
+
 ## Compilation depends
 
 * [Qt 5.12.10](https://www.qt.io/download-open-source) (min Qt 5.12.8 you can setup manually in cmake file). Not recommended version above (minor) 5.12 release due to bugs in the QWebSockets (you can catch SIGFAULT). <br>You only need to install Qt 5.12.10 Prebuilt Components for Desktop in Qt MaintenenceTool, all modules are not necessary.
