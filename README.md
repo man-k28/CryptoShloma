@@ -6,7 +6,7 @@ Algorithmic trading based on set quantity of clever steps, when bot buys selecte
 
 When cryptocurrency is growing, bot takes profit. When falls, dont loosing money. :)
 
-* [Article on Habr.com](https://habr.com/ru/sandbox/148944)
+* [Article on Habr.com](https://habr.com/ru/post/538642)
 * [Article on VC.ru](https://vc.ru/u/689296-man-k28/195465-algo-treyding-bot-cryptoshloma)
 
 If you have a question, welcome to [Telegram](https://t.me/cryptoshloma)
