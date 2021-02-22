@@ -50,7 +50,7 @@ To connect your account, you need to generate a public and private key in your p
 
 ## Compilation depends
 
-* [Qt 5.12.10](https://www.qt.io/download-open-source) (min Qt 5.12.8 you can setup manually in cmake file). Not recommended version above (minor) 5.12 release due to bugs in the QWebSockets (you can catch SIGFAULT). <br>You only need to install Qt 5.12.10 Prebuilt Components for Desktop in Qt MaintenenceTool, all modules are not necessary.
+* [Qt 5.12 min](https://www.qt.io/download-open-source) You only need to install Qt Prebuilt Components for Desktop in Qt MaintenenceTool, all modules are not necessary.
 * OpenSSL 1.1 (installed from Qt MaintenenceTool)
 * [CuteLogger](https://github.com/man-k28/CuteLogger) (forked version, build included in project)
 
@@ -64,6 +64,7 @@ To connect your account, you need to generate a public and private key in your p
 -DCuteLogget_STATIC=ON/OFF (optional, OFF default) - build library for static or shared linking
 -DOPENSSL_CRYPTO_LIBRARY="path to file" (required) - path to libcrypto.so (libcrypto.dll for WIN)
 -DOPENSSL_INCLUDE_DIR="path to dir" (required) - path to openssl headers
+-DOPENSSL_ROOT_DIR="path to dir" (required) - path to openssl root dir
 ```
 
 ## Roadmap
